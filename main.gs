@@ -12,11 +12,11 @@ const URL_TOKEN = "https://biz-oauth.yahoo.co.jp/oauth/v1/token";
 //API用のURLを指定してください。（バージョンを切り替える場合はv1の部分を対象のバージョンに書き換えてください。）
 const URL_API = "https://ads-search.yahooapis.jp/api/v1";
 //Yahoo!広告 APIの管理ツールで登録したアプリケーションのクライアントIDを指定してください。
-const CLIENT_ID = "410923fcb747503246044716be26648a6ab821b224939ec3e01e2593cdc8e5a3";
+const CLIENT_ID = "9999999999999999999999999";
 //Yahoo!広告 APIの管理ツールで登録したアプリケーションのクライアントシークレットを指定してください。
-const CLIENT_SECRET = "e52803129851035b139c2887773f6cdbc1467e5f395851aec50378422d15bbb3";
+const CLIENT_SECRET = "9999999999999999999999999";
 //Yahoo!広告 APIの認可時に取得したリフレッシュトークンを指定してください。
-const REFRESH_TOKEN = "c982735a095f66398e22ffb5fc373420b8ba451e9d51bac378f17ba2b2d0bbe1";
+const REFRESH_TOKEN = "9999999999999999999999999";
 
 /**********************
  * レポートを作成するのに必要な情報を設定
