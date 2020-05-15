@@ -34,14 +34,3 @@ function createSheet(sheet_Name){
   var objSpreadsheet = SpreadsheetApp.getActiveSpreadsheet();
   objSpreadsheet.insertSheet(sheet_Name);
 }
-
-/*****
- * 設定された値を取得する
- * 登録されたID等を取得する
- *****/
-function updateCsv(sheet_name, data) {
-  var values = Utilities.parseCsv(data);
-  var this_sheet = SpreadsheetApp.getActive().getSheetByName(sheet_name);
-  this_sheet.clearContents();
-  this_sheet.getRange(1, 1, values.length, values[0].length).setValues(values);
-}
